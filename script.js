@@ -1,2 +1,4 @@
-"use strict";
-alert('Hello');
+"use strict"; //Строгий режим
+alert('Hello'); /* 
+Вывод Hello
+*/
