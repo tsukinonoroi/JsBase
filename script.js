@@ -1,10 +1,15 @@
 "use strict";
 //exr1
-let a  = Number('14');
-let b  = Number('2');
-alert(a + b);
+let num = parseInt('5px');
+let num2 = parseInt('6px');
+alert(num + num2); 
 
 //exr2
-let с  = Number('5');
-let d  = Number('54');
-alert(c + d);
+let a = parseInt('5.5px');
+let b = parseInt('6.25px');
+alert(a + b); 
+
+//exr3
+let c = parseInt('5.5px');
+let d = parseInt('6.25px');
+alert(c + d + 'px'); 
