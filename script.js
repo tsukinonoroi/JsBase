@@ -1,7 +1,5 @@
 "use strict";
-let a, b, c, result;
 
-a = -100;
-alert(a); //Выведет -100
-
-alert(-a) //Выведет 100
+let a = 13;
+let b = 5;
+alert(a % b) //Остаток 3 выведет
