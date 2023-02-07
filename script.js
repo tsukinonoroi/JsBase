@@ -1,25 +1,27 @@
 "use strict";
-
-let str = `abc
-def`; 
-alert(str);
-
-let a, b, c,d; 
-
-
-a = 'java'.length;
-b = 'script';
-c = 'hello';
-d = ' world';
+//exr1
+let a;
 alert(a);
-alert(c+d);
 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa${str1}bbb${str2}ccc`;
-alert(txt);
+//exr2
+let b = null;
+alert(b);
 
-let abc = `l
-h
-g
-`;
+//exr3
+let c = true;
+alert(c);
+
+//exr4
+let d = false;
+alert(d);
+
+//exr5
+let z = 'ttrtrtrt';
+let x = '5';
+alert(z * x);
+
+//exr6
+alert( 10 / 0);
+
+//exr7
+alert( -10 / 0);
