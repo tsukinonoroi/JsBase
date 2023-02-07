@@ -1,18 +1,16 @@
 "use strict";
-//exr1
-let str = 'abcde';
 
-alert(str[0]); // выведет 'a'
-alert(str[2]); // выведет 'c'
-alert(str[4]); // выведет 'e'
+//exr1
+let str = 'shadowfiend';
+let last = str.length - 1; // номер последнего символа
+alert(str[last]);
 
 //exr2
-alert(str[4]); // выведет 'e'
-alert(str[3]); // выведет 'd'
-alert(str[2]); // выведет 'c'
-alert(str[1]); // выведет 'b'
-alert(str[0]); // выведет 'a'
+let a = 'asphyxia';
+let b = a.length - 2; // номер предпоследнего символа
+alert(a[b]); 
 
 //exr3
-let num = 3;
-alert(str[num]);
+a = 'rizzasqwore';
+b = a.length  -3; // номер предпоследнего символа
+alert(a[b]); 
