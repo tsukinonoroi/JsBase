@@ -1,21 +1,10 @@
 "use strict";
-
 //exr1
-let a = '5' + '2';
-alert(a);
+let a  = Number('14');
+let b  = Number('2');
+alert(a + b);
 
 //exr2
-let b = '5' + 2;
-alert(b);
-
-//exr3
-let c = 5 + '2';
-alert(c);
-
-//exr4
-let d = 5 + 2;
-alert(d);
-
-//exr5
-let e = '5' * '2';
-alert(e);
+let с  = Number('5');
+let d  = Number('54');
+alert(c + d);
