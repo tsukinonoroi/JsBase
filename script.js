@@ -1,11 +1,23 @@
 "use strict";
 let a, b, c, d, result, str;
 
-a = 5;
-b = 13;
-alert(String(a) + String(b));
-a = 6;
-alert(String(a).length);
-a = 6565;
-b = 4;
-alert(String(a).length + String(b).length); 
+//exr1
+alert(true + 3);
+
+//exr2
+alert(true + true);
+
+//exr3
+alert(true - true);
+
+//exr4
+alert(true + false);
+
+//exr5
+alert('1' + true);
+
+//exr6
+alert( String(true) + 1 );
+
+//exr7
+alert( String(true) + Number(true) );
