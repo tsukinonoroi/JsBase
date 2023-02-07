@@ -1,15 +1,11 @@
 "use strict";
-//exr1
-let num = parseInt('5px');
-let num2 = parseInt('6px');
-alert(num + num2); 
+let a, b, c, d, result, str;
 
-//exr2
-let a = parseInt('5.5px');
-let b = parseInt('6.25px');
-alert(a + b); 
-
-//exr3
-let c = parseInt('5.5px');
-let d = parseInt('6.25px');
-alert(c + d + 'px'); 
+a = 5;
+b = 13;
+alert(String(a) + String(b));
+a = 6;
+alert(String(a).length);
+a = 6565;
+b = 4;
+alert(String(a).length + String(b).length); 
