@@ -1,27 +1,20 @@
 "use strict";
 //exr1
-let a;
-alert(a);
+let num = 4;
+console.log(num);
 
 //exr2
-let b = null;
-alert(b);
+let num1 = 3;
+let num2 = 1;
+let num3 = 113;
+
+console.log(num1);
+console.log(num2);
+console.log(num3);
 
 //exr3
-let c = true;
-alert(c);
+console.log(fdf);
+console.log('fdf');
 
 //exr4
-let d = false;
-alert(d);
-
-//exr5
-let z = 'ttrtrtrt';
-let x = '5';
-alert(z * x);
-
-//exr6
-alert( 10 / 0);
-
-//exr7
-alert( -10 / 0);
+alert(a);
