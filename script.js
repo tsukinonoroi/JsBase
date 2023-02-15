@@ -1,12 +1,7 @@
 "use strict";
 
-alert(`Задание 1: Ваш возраст: ${Number(prompt('Ваш возраст?'))}`);
-let num1 = Number(prompt('Введите первое число'));
-let num2 = Number(prompt('Введите второе число'));
-
-alert(`Задание 2: ${Number(num1) + Number(num2)}`);
-let area = Number(prompt('Введите длину стороны квадрата: '));
-alert(`Задание 3: ${area ** 2}`);
-num1 = Number(prompt('Введите длину прямоугольника'));
-num2 = Number(prompt('Введите ширину прямоугольника'));
-alert(`Задание 4: ${Number(num1) * 2 + Number(num2) * 2}`);
+document.write(`Задание 1<br>`);
+document.write(`<i>Задание 2</i> <br>`);
+let str = 'Задание 3';
+document.write(`<i>${str}</i> <br>`);
+document.write(`${1}<br>${2}</br>${3}<br>${4}<br>${5}`);
