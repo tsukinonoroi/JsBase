@@ -1,12 +1,15 @@
 "use strict";
 
-document.write(`Задание 1: ${24 * 60 * 60}<br>`);
-document.write(`Задание 2: ${30 * 24 * 60 * 60}<br>`);
-document.write(`Задание 3: ${365 * 24 * 60 * 60}<br>`);
-document.write(`Задание 4: ${24 * 60}<br>`);
-document.write(`Задание 5: ${365 * 24 * 60}<br>`);
-document.write(`Задание 6: ${1024 * 1024}<br>`);
-document.write(`Задание 7: ${1024 * 1024 * 1024}<br>`);
-document.write(`Задание 8: ${1024 * 1024 * 1024 * 10}<br>`);
-document.write(`Задание 9: ${1024 * 1024 * 1000}<br>`);
-document.write(`Задание 10: ${1024 * 1024 * 1024 * 1000}<br>`);
+let r_circle = Number(prompt("Enter radius of circle: ")),
+  Pi = Math.PI;
+document.write(`Задание 1: ${Pi * r_circle ** 2}`);
+let a_square = Number(prompt("Enter length of square: "));
+document.write(`<br>Задание 2: ${a_square ** 2}`);
+let l_rect = Number(prompt("Enter length of rectangle: ")),
+  w_rect = Number(prompt("Enter width of rectangle: "));
+document.write(`<br>Задание 3: ${w_rect * l_rect}`);
+document.write(`<br>Задание 4: ${2 * (l_rect + w_rect)}`);
+let tc = Number(prompt("Enter temperature in Celcius: "));
+document.write(`<br>Задание 5: ${tc * (9 / 5) + 32}`);
+let fc = Number(prompt("Enter temperature in Fahrenheit: "));
+document.write(`<br>Задание 6: ${(fc - 32) / (9 / 5)}`);
