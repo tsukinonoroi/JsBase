@@ -1,24 +1,55 @@
 "use strict";
 
-/* let num = 3;
-if (num > 0 && num < 5) {
-	console.log('+++');
-} else {
-	console.log('---');
-} */
-
-/* let num = 13;
-if (num >= 10 && num <= 20) {
-	console.log('+++');
-} else {
-	console.log('---');
-} */
-
-let num = 3;
-let num2 = 2;
-
-if (num <= 1 && num2 >= 3) {
+/* let num1 = -10;
+let num2 = -10;
+if (num1 >= 0 || num2 >= 0) {
 	console.log('+++');
 } else {
 	console.log('---');
 }
+let num1 = 0;
+let num2 = 0;
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let num1 = 0;
+let num2 = 5;
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let num1 = 5;
+let num2 = 5;
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let num1 = -5;
+let num2 = 15;
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let num = 1;
+if (num == 0 || num == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let num = 2;
+if (num == 0 || num == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let num = 2;
+if (num == 0 || num == 1 || num == 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+} */
