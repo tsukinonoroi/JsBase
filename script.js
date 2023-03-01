@@ -1,9 +1,12 @@
 "use strict";
 
-let ok = confirm('Вам есть 18 лет?');
+let age = 17;
+let adult;
 
-if (ok) {
-	document.write('только для совершеннолетник');
+if (age >= 18) {
+	adult = true;
 } else {
-	document.write('нельзя');
+	adult = false;
 }
+
+document.write(adult);
