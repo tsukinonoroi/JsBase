@@ -1,19 +1,25 @@
 "use strict";
 
-let min = 10;
+let str = 'abcde';
 
-if (min >= 0 && min <= 14) {
-	document.write('1 четверть');
+if (str[0] == 'a') {
+	document.write('yes', '<br>');
+} else {
+	document.write('no', '<br>');
 }
 
-if (min >= 15 && min <= 29) {
-	document.write('2 четверть');
+let str1 = 'abx';
+
+if (str1[2] == 'x') {
+	document.write('yes', '<br>');
+} else {
+	document.write('no', '<br>');
 }
 
-if (min >= 30 && min <= 44) {
-	document.write('3 четверть');
-}
+let str2 = 'abc';
 
-if (min >= 45 && min <= 59) {
-	document.write('4 четверть');
+if (str2[0] == 'a' || str2[0] == 'b') {
+	document.write('yes', '<br>');
+} else {
+	document.write('no', '<br>');
 }
