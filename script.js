@@ -1,22 +1,38 @@
-"use strict";
+console.log('====================== 1 ========================')
 
-let str = 'Elvin ti milanochka?';
-let arr = str.split('') 
-let count = {};         
-let result = 0 
+let arr1 = [1, 2, 3, 4, 5, 6];
 
-for (let item of arr) {
-   if (count[item] === undefined) {
-	  count[item] = 1;
-   } else {
-	  count[item]++;
-   }
-}
-
-for (let item in count) {
-   if(count[item] > 1) {
-	  result += count[item]
-   };
+for (let i = 1; i <= arr1.length; i++) {
+    console.log([arr1[i]]);
 };
 
-document.write(result);
+console.log('====================== 2 ========================')
+
+let res = 0
+
+for (let i = 1; i <= arr1.length; i++) {
+    res = arr1[i] + arr1[i + 1];
+    console.log(res);
+};
+
+
+console.log('====================== 3 ========================')
+
+for (let i = 1; i <= arr1.length; i++) {
+    console.log(arr1[i - 2], arr1[i - 1]);
+};
+
+console.log('====================== 4 ========================')
+
+for (let i = 1; i <= arr1.length; i++) {
+    console.log(arr1[i - 2] + arr1[i - 1]);
+};
+
+console.log('====================== 4 ========================')
+
+let res1 = 0;
+
+for (let i = 1; i <= arr1.length; i++) {
+    res = arr1[i - 1] + arr1[i] + arr1[i + 1];
+    console.log(res1)
+};
