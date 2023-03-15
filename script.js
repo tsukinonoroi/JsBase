@@ -1,75 +1,75 @@
+  /*
+      [
+         [1, 2, 3, 4, 5],
+         [1, 2, 3, 4, 5],
+         [1, 2, 3, 4, 5]
+      ]
+   */
 
-console.log('====================== 1 ========================');
+      let newArr = [];
 
-let arr = [
-   [1, 2, 3],
-   [4, 5],
-   [6]
-];
-
-let sum = 0;
-
-for (let mainArr of arr) {
-   for (let SubMainArr of mainArr) {
-      sum += SubMainArr
-   };
-};
-
-console.log(sum)
-
-
-console.log('====================== 2 ========================');
-
-let arr1 = [
-   [[1, 2], [3, 4]],
-   [[5, 6], [7, 8]]
-];
-
-let sum1 = 0;
-
-for (let mainArr of arr1) {
-   for (let SubMainArr of mainArr) {
-      for (let SubSubMainArr of SubMainArr) {
-         sum1 += SubSubMainArr
+      for (let i = 0; i <= 2; i++) {
+         newArr[i] = [];
+         for (let k = 1; k <= 5; k++) {
+            newArr[i].push(k)
+         };
       };
-   };
-};
-
-console.log(sum1)
-
-console.log('====================== 3 ========================');
-
-let arr3 = [
-   [1, 2, 3],
-   [4, 5],
-   [6]
-];
-
-let sum3 = 0;
-
-for (let i = 0; i <= arr3.length - 1; i++) {
-   for (let k = 0; k <= arr3[i].length - 1; k++) {
-      sum3 += arr3[i][k];
-   };
-};
-
-console.log(sum3)
-
-//=================================================================
-
-let arr4 = [
-   [[1, 2], [3, 4]],
-   [[5, 6], [7, 8]]
-];
-
-let sum4 = 0;
-
-for (let i = 0; i < arr4.length; i++) {
-   for (let j = 0; j < arr4[i].length; j++) {
-      for (let k = 0; k < arr4[i][j].length; k++) {
-         sum4 += arr4[i][j][k];
+   
+      console.log(newArr);
+   
+      console.log('====================== 2 ========================');
+   
+      /*
+         [
+            ['x', 'x', 'x', 'x'],
+            ['x', 'x', 'x', 'x'],
+            ['x', 'x', 'x', 'x']
+         ]
+      */
+   
+      let newArr1 = [];
+   
+      for (let i = 0; i <= 2; i++) {
+         newArr1[i] = [];
+         for (let k = 1; k <= 4; k++) {
+            newArr1[i].push('x')
+         };
       };
-   };
-};
-
-console.log(sum4)
+   
+      console.log(newArr1);
+   
+   
+      console.log('====================== 3 ========================');
+   
+      /*
+      [
+         [
+            [1, 2, 3, 4, 5],
+            [1, 2, 3, 4, 5],
+         ],
+         [
+            [1, 2, 3, 4, 5],
+            [1, 2, 3, 4, 5],
+         ],
+         [
+            [1, 2, 3, 4, 5],
+            [1, 2, 3, 4, 5],
+         ],
+      ]
+      
+      */
+   
+      let newArr2 = [];
+   
+   
+      for (let i = 0; i <= 2; i++) {
+         newArr2[i] = [];
+         for (let k = 0; k <= 1; k++) {
+            newArr2[i][k] = [];
+            for (let j = 1; j <= 5; j++) {
+               newArr2[i][k].push(j)
+            }
+         };
+      };
+   
+      console.log(newArr2)
