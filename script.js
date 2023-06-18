@@ -4,7 +4,7 @@ let count = {};
 
 for (let elem of arr) {
 	if (count[elem] === undefined) {
-		count[elem] = 2;
+		count[elem] = 1;
 	} else {
 		count[elem]++;
 	}
