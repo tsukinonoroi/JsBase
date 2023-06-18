@@ -43,7 +43,7 @@ let arr1 = [1, 2, 3, 4];
       
 
      
-      let arr6 = [1, 2, 3, 4, 5, 6]
+      let arr6 = [2, 1, 3, 4, 5, 6]
 
       function num2(arr) {
          let res = 1;
