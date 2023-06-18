@@ -21,7 +21,7 @@ let obj = {
  for (let key in obj) {
    let obj3 = obj[key];
    for (let obj1 in obj3) {
-      result += obj3[obj1]
+      result += obj2[obj1]
    };
  };
  
