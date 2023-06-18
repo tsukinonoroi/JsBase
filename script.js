@@ -1,13 +1,14 @@
-
-
-function kammakaze() {
-	console.log('consolka');
+function cub(a) {
+   console.log(Math.pow(a, 3));
 }
-kammakaze();
+cub(2);
 
-let num = (a, b) => {
-   for (; a <= b; a++) {
-      console.log(a);
+function num(b) {
+   if (b >= 0) {
+      console.log('+++')
+   } else {
+      console.log('---')
    }
-};
-num();
+}
+
+num(-2);
