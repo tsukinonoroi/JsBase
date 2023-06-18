@@ -1,42 +1,58 @@
-let x = 2, y = 2
+let arr1 = [1, 2, 3, 4];
 
-function func(a, b) {
-   return a == b;
-};
+      function calcArr(arr) {
 
-console.log(func(x, y));
+         let res = 0;
 
+         for (let elem of arr) {
+            res += elem;
+         };
 
+         res = res / arr.length
 
+         return res;
+      };
 
-x = 3;
-y = 2;
+      console.log(calcArr(arr1))
 
-function func2(a, b) {
-   return a != b;
-}
-
-console.log(func2(x, y));
-
-
-
-
-x = 3;
-y = 3;
-
-function func3(a, b) {
-   return a + b >= 10;
-}
-
-console.log(func3(x, y));
+   
+      
 
 
 
+      let arr2 = [1, 2, 3, 4];
+      let arr3 = [5, 6, 7, 8];
 
-let number = -2;
+      function sum(arr) {
+         let sum = 0;
+         for (let elem of arr) {
+            sum += elem
+         };
+         return sum;
+      };
 
-function func4(num) {
-   return num >= 0
-}
+      function num1(arr1, arr2) {
+         let res1 = sum(arr1)
+         let res2 = sum(arr2)
+         return res1 / res2;
+      };
 
-console.log(func4(number));
+      console.log(num1(arr2, arr3));
+
+
+      
+
+     
+      let arr6 = [1, 2, 3, 4, 5, 6]
+
+      function num2(arr) {
+         let res = 1;
+
+         for (let elem of arr) {
+            res *= elem;
+         }
+
+         return res;
+      };
+
+      console.log(num2(arr6));
