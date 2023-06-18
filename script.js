@@ -1,6 +1,6 @@
 let options = {
    color: "red",
-   width: 400,
+   width: 600,
    height: 500,
 };
 let {color, width, height} = options;
