@@ -1,91 +1,27 @@
-function func1() {
-   console.log('!');
-};
-
-
-
-
-let func2 = function () {
-   console.log('!');
-};
-
-
-
-
-+function () {
-   console.log('!');
-};
+let arr = [
+   function () { return 1 },
+   function () { return 2 },
+   function () { return 3 },
+];
 
 
 
 
 
-!function func4() {
-   console.log('!');
-};
-
-
-
-
--function func5() {
-   console.log('!');
-};
+console.log(arr[2]());
 
 
 
 
 
-1 + function func6() {
-   console.log('!');
-};
+let sum = arr[0]() + arr[1]() + arr[2]();
+
+console.log(sum)
 
 
 
 
 
-(function func7() {
-   console.log('!');
-});
-
-
-
-
-
-console.log(
-   function () {
-      console.log('!');
-   }
-);
-
-
-
-
-
-let test = function func() {
-   console.log('!');
-};
-
-
-
-
-console.log(
-   function func() {
-      console.log('!');
-   }
-);
-
-
-
-
-
-+function func11() {
-   console.log('!');
-};
-
-
-
-
-
-function func12() {
-   console.log('!');
+for (let func of arr) {
+   console.log(func());
 };
