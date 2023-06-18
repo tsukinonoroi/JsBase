@@ -1,12 +1,10 @@
-let i = 0;
+function func(num1, num2) {
 
-function num(x) {
-   for (;; i++) {
-      x = x / 2;
-      if (x <= 10) {
-         return i;
-      } 
+   if (num1 > 0 && num2 > 0) {
+      return num1 * num2;
+   } else {
+      return num1 - num2;
    }
 }
 
-console.log(num(100));
+console.log(func(3, 4));
