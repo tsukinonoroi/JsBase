@@ -1,17 +1,20 @@
+let num = 1;
+
+function func1() {
+   num = 2;
+}
+func1();
+console.log(num); // 2
+
+
+
+
+
+
+let num1 = 1;
+
 function func() {
-   let num = 5;
-   return num;
+   let num1 = 2;
 }
-
-console.log(num); //ошибка
-
-
-
-
-
-function func2() {
-   let num = 5;
-   return num;
-}
-
-console.log(func2()); //5
+func();
+console.log(num1); // 1
