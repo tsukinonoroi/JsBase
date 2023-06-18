@@ -1,17 +1,35 @@
-function cub(x) {
-   return Math.pow(x, 3)
-};
+function func(num) {
+   return num;
 
-let res = cub(3);
-console.log(res)
+   let res = num ** 2;
+   return res;
+}
+
+console.log(func(3));  
+//выведет 3
 
 
 
+function func(num) {
+   if (num <= 0) {
+      return Math.abs(num);
+   } else {
+      return num ** 2;
+   }
+}
+
+console.log(func(10));// 100
+console.log(func(-5));// 5
 
 
-function cor(a) {
-   return Math.sqrt(arguments)
-};
 
-let result = cor(3) + cor(4);
-console.log(result)
+function func(num) {
+   if (num <= 0) {
+      return Math.abs(num); 
+   }
+
+   return num ** 2; 
+}
+
+console.log(func(10)); //100
+console.log(func(-5)); // 5  
