@@ -1,17 +1,10 @@
-let func = (function () {
-   let num = 1;
-
-   return function () {
-      console.log(num);
-      num++;
-   };
-})();
-
-func();
-func();
-func();
-func();
-func();
+let result1 = every([1, 2, 3, 4, 5], (elem) => {
+   if (elem > 0) {
+      return true;
+   } else {
+      return false;
+   }
+});
 
 
 
@@ -19,33 +12,29 @@ func();
 
 
 
-let func5 = (function () {
-   let num = 1;
-   return function () {
-      if (num == 5) {
-         console.log(num);
-         num = 1;
-      } else {
-         console.log(num);
-         num++;
-      }
-   };
-})();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
-func5();
+let result2 = every([1, 2, 3, 4, 5], (elem, index) => {
+   if (elem * index > 10) {
+      return true;
+   } else {
+      return false;
+   }
+});
+
+
+
+
+
+
+let arr = [
+   [1, 2, 3],
+   [4, 5, 6],
+   [7, 8, 9],
+];
+
+let result3 = each(arr, (elem, index) => {
+   if (elem * index > 10) {
+      return true;
+   } else {
+      return false;
+   }
+});
