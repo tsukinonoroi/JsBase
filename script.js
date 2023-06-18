@@ -1,75 +1,58 @@
-  /*
-      [
-         [1, 2, 3, 4, 5],
-         [1, 2, 3, 4, 5],
-         [1, 2, 3, 4, 5]
-      ]
-   */
+let arr = [];
+for (let i = 0; i < 3; i++) {
+   arr[i] = [];
+   for (let j = 1; j <= 5; j++) {
+      arr[i].push(j);
+   }
+}
+console.log(arr);
 
-      let newArr = [];
 
-      for (let i = 0; i <= 2; i++) {
-         newArr[i] = [];
-         for (let k = 1; k <= 5; k++) {
-            newArr[i].push(k)
-         };
-      };
-   
-      console.log(newArr);
-   
-      console.log('====================== 2 ========================');
-   
-      /*
-         [
-            ['x', 'x', 'x', 'x'],
-            ['x', 'x', 'x', 'x'],
-            ['x', 'x', 'x', 'x']
-         ]
-      */
-   
-      let newArr1 = [];
-   
-      for (let i = 0; i <= 2; i++) {
-         newArr1[i] = [];
-         for (let k = 1; k <= 4; k++) {
-            newArr1[i].push('x')
-         };
-      };
-   
-      console.log(newArr1);
-   
-   
-      console.log('====================== 3 ========================');
-   
-      /*
-      [
-         [
-            [1, 2, 3, 4, 5],
-            [1, 2, 3, 4, 5],
-         ],
-         [
-            [1, 2, 3, 4, 5],
-            [1, 2, 3, 4, 5],
-         ],
-         [
-            [1, 2, 3, 4, 5],
-            [1, 2, 3, 4, 5],
-         ],
-      ]
-      
-      */
-   
-      let newArr2 = [];
-   
-   
-      for (let i = 0; i <= 2; i++) {
-         newArr2[i] = [];
-         for (let k = 0; k <= 1; k++) {
-            newArr2[i][k] = [];
-            for (let j = 1; j <= 5; j++) {
-               newArr2[i][k].push(j)
-            }
-         };
-      };
-   
-      console.log(newArr2)
+let arr1 = [];
+for (let i = 0; i < 3; i++) {
+   arr1[i] = [];
+   for (let j = 1; j <= 5; j++) {
+      arr1[i].push(j);
+   }
+}
+console.log(arr1);
+
+
+let arr2 = [];
+for (let i = 0; i < 3; i++) {
+   arr2[i] = [];
+   for (let j = 1; j <= 5; j++) {
+      arr2[i].push(j);
+   }
+}
+console.log(arr2);
+
+
+let arr4 = [];
+for (let i = 0; i < 3; i++) {
+   arr4[i] = [];
+   for (let j = 1; j <= 5; j++) {
+      arr4[i].push(j);
+   }
+}
+console.log(arr4);
+
+
+let arr5 = [];
+for (let i = 0; i < 3; i++) {
+   arr5[i] = [];
+   for (let j = 1; j <= 5; j++) {
+      arr5[i].push(j);
+   }
+}
+console.log(arr5);
+
+
+let arr6 = [];
+for (let i = 0; i < 3; i++) {
+   arr6[i] = [];
+   for (let j = 1; j <= 5; j++) {
+      arr6[i].push(j);
+   }
+}
+console.log(arr6);
