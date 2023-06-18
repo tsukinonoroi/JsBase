@@ -1,14 +1,8 @@
-function cub(a) {
-   console.log(Math.pow(a, 3));
-}
-cub(2);
+let param1 = 1;
+let param2 = 5;
+let param3 = 3;
 
-function num(b) {
-   if (b >= 0) {
-      console.log('+++')
-   } else {
-      console.log('---')
-   }
-}
-
-num(-2);
+function num(a, b, c) {
+   return console.log(a + b + c);
+};
+num(param1, param2, param3);
