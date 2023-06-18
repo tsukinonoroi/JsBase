@@ -1,5 +1,5 @@
 let options = {
-   width: 400,
+   width: 500,
    height: 500,
 };
 let { color = 'red', width, height} = options;
