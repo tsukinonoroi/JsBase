@@ -1,37 +1,17 @@
-let num = 1;
+function func() {
+   let num = 5;
+   return num;
+}
 
-      function func1() {
-         console.log(num);
-      }
-
-      func1();   // 1
-
-
-      
-
-
-      let num1 = 1;
-
-      function func2() {
-         console.log(num1);
-      }
- 
-      num1 = 2;
-      func2();   // 2
-
-
-      
+console.log(num); //ошибка
 
 
 
-      function func3() {
-         console.log(num2);
-      }
 
-      let num2;
 
-      num2 = 1;
-      func3();   // 1
+function func2() {
+   let num = 5;
+   return num;
+}
 
-      num2 = 2;
-      func3();   // 2
+console.log(func2()); //5
