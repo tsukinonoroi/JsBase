@@ -1,52 +1,49 @@
-function func() {
-   return console.log('Hello world!');
-};
-
-
-func();
-
-
-console.log(func);
-
-
-
-func = 1234;
-
-      console.log(func);
-
-
-
-
 function func1() {
-   return 3;
-};
-
-
-let func2 = func1;
-
-
-
-
-console.log(func1() + func2());
-
-
-
-
-
-let func3 = function () {
-     return 1;
-  };
-
-
-  
-
-
-let func4 = function () {
-   return 2;
+   console.log('!');
 };
 
 
 
 
 
-console.log(func3() + func4())
+
+let func = function () {
+   console.log('!');
+};
+
+
+
+
+
+
+func(); 
+
+function func() {
+   console.log('!');
+}
+
+
+
+
+
+func(); 
+
+let func = function () {
+   console.log('!');
+};
+
+
+
+
+
+let func1 = function () {
+   console.log('!')
+};
+
+let func2 = function () {
+   console.log('!')
+};
+
+function func3() {
+   console.log('!')
+};
