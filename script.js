@@ -1,58 +1,37 @@
-let arr1 = [1, 2, 3, 4];
+let num = 1;
 
-      function calcArr(arr) {
+      function func1() {
+         console.log(num);
+      }
 
-         let res = 0;
-
-         for (let elem of arr) {
-            res += elem;
-         };
-
-         res = res / arr.length
-
-         return res;
-      };
-
-      console.log(calcArr(arr1))
-
-   
-      
-
-
-
-      let arr2 = [1, 2, 3, 4];
-      let arr3 = [5, 6, 7, 8];
-
-      function sum(arr) {
-         let sum = 0;
-         for (let elem of arr) {
-            sum += elem
-         };
-         return sum;
-      };
-
-      function num1(arr1, arr2) {
-         let res1 = sum(arr1)
-         let res2 = sum(arr2)
-         return res1 / res2;
-      };
-
-      console.log(num1(arr2, arr3));
+      func1();   // 1
 
 
       
 
-     
-      let arr6 = [2, 1, 3, 4, 5, 6]
 
-      function num2(arr) {
-         let res = 1;
+      let num1 = 1;
 
-         for (let elem of arr) {
-            res *= elem;
-         }
+      function func2() {
+         console.log(num1);
+      }
+ 
+      num1 = 2;
+      func2();   // 2
 
-         return res;
-      };
 
-      console.log(num2(arr6));
+      
+
+
+
+      function func3() {
+         console.log(num2);
+      }
+
+      let num2;
+
+      num2 = 1;
+      func3();   // 1
+
+      num2 = 2;
+      func3();   // 2
